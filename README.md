@@ -10,6 +10,8 @@ Welcome to the Deepfake Voice Detection project! This repository contains the im
 
 - **Features**
 
+- **Code and Dataset**
+
 - **Installation**
 
 - **Usage**
@@ -19,6 +21,8 @@ Welcome to the Deepfake Voice Detection project! This repository contains the im
     - **Evaluating Model**
 
     - **Detecting Deepfakes in Audio**
+
+- **Reference**
 
 - **Contributing**
 
@@ -52,6 +56,9 @@ Deepfake voice detection leverages Generative Adversarial Networks (GANs) to ide
 - **Dataset Support**: Compatibility with multiple audio datasets, both synthetic and real, for comprehensive training and testing.
 
 - **Visualization Tools**: Utilities to visualize audio features, model performance, and detection results.
+
+## Code:
+To view the code of this project, [Source Code](https://colab.research.google.com/drive/17z4BnxHi_PYOBmB4ezop4obrE4t1nHUL?usp=drive_link).
 
 ## Installation
 
@@ -93,8 +100,14 @@ python evaluate.py --model_path models/deep-fake-voice-detection.pth --data_path
 For real-time detection on audio files:
 ```bash
 python detect.py --audio_file path/to/audio.wav --model_path models/deep-fake-voice-detection.pth
-
 ```
+## Reference
+1. [Generative Adversarial Network (GAN): a general review on different variants of GAN and applications](https://ieeexplore.ieee.org/abstract/document/9489160/)
+2. [GAN Discriminator based Audio Deepfake Detection](https://dl.acm.org/doi/abs/10.1145/3595353.3595883)/
+3. [Deepfake detection using deep learning methods: A systematic and comprehensive review](https://wires.onlinelibrary.wiley.com/doi/full/10.1002/widm.1520/)
+4. [The Effect of Deep Learning Methods on Deepfake Audio Detection for Digital Investigation](https://www.sciencedirect.com/science/article/pii/S1877050923002910/)
+5. [Audio deepfakes: A survey](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2022.1001063/full/)
+
 ## Contributing
 
 We welcome contributions from the community! If you have ideas, bug fixes, or improvements, please open an issue or submit a pull request. Make sure to follow our contribution guidelines.
@@ -109,5 +122,4 @@ We would like to thank the developers of the libraries and datasets used in this
 
 Feel free to reach out with any questions or feedback. Together, we can make digital communications safer and more secure!
 
-To view the code, [click here](https://colab.research.google.com/drive/17z4BnxHi_PYOBmB4ezop4obrE4t1nHUL?usp=drive_link)).
 
