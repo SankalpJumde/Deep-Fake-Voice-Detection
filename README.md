@@ -27,15 +27,17 @@ Welcome to the Deepfake Voice Detection project! This repository contains the im
 Deepfakes are artificially generated media that can convincingly mimic real voices, posing significant threats to security, privacy, and trust in digital communications. This project addresses the growing need for reliable methods to detect such deepfake audio, providing tools and models to help mitigate these risks.
 
 ### Process Overview
+![Screenshot 2024-06-26 140557](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/2b0aea00-0f42-451f-a56b-5ce598418e33)
 
-![Deepfake Detection Process](path/to/your/image1.png)
 
-![Training Process](path/to/your/image2.png)
 ## Features
 
 - **Audio Preprocessing**: Tools for cleaning and preparing audio data for analysis.
 
 - **Feature Extraction**: Techniques to extract relevant features from audio clips, such as MFCCs (Mel-Frequency Cepstral Coefficients), spectrograms, and more.
+- ![Screenshot 2024-06-26 140747](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/5394498e-eaab-4452-9327-638b11df355c)
+![Screenshot 2024-06-26 140821](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/b87e4696-beed-4556-9124-59ad2ef687b9)
+
 
 - **Machine Learning Models**: Implementation of various machine learning models, including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Transformers, tailored for audio deepfake detection.
 
@@ -73,6 +75,8 @@ To train a deepfake detection model, use the following command:
 python train.py --config configs/training_config.yaml
 ```
 Modify the configuration file to adjust parameters like dataset paths, model architecture, training epochs, etc.
+![Screenshot 2024-06-26 140838](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/d73077eb-7ff0-4e38-875f-311bc5ba6d85)
+
 
 ### Evaluating a Model
 To evaluate a trained model, use:
