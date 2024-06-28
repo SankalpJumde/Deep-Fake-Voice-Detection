@@ -28,6 +28,7 @@ Deepfakes are artificially generated media that can convincingly mimic real voic
 
 ### Process Overview
 ![Screenshot 2024-06-26 140557](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/2b0aea00-0f42-451f-a56b-5ce598418e33)
+
 Deepfake voice detection leverages Generative Adversarial Networks (GANs) to identify and differentiate between authentic and synthesized voices. GANs consist of two neural networks: a generator and a discriminator. The generator creates synthetic audio samples that mimic real human voices, while the discriminator evaluates these samples to determine their authenticity. During training, the generator continuously improves its ability to produce convincing fake voices, while the discriminator becomes more adept at identifying subtle differences between real and fake audio. This adversarial process enhances the overall detection capability, enabling the system to recognize even sophisticated deepfake voices by analyzing patterns, inconsistencies, and anomalies in the audio signals that are often imperceptible to human ears. As a result, GAN-based deepfake voice detection systems can effectively safeguard against the misuse of synthetic audio in various applications, from security to media integrity.
 
 GAN MODEL:
