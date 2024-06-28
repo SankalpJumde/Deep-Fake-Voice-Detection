@@ -10,7 +10,7 @@ Welcome to the Deepfake Voice Detection project! This repository contains the im
 
 - **Features**
 
-- **Code and Dataset**
+- **Code**
 
 - **Installation**
 
