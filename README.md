@@ -150,7 +150,7 @@ Thanks to the open-source community, Kaggle, and ML researchers who continue to 
 ## 📬 Contact
 
 Made with ❤️ by **Sankalp**  
-🔗 ![[GitHub](https://github.com/SankalpJumde)] • [[LinkedIn](https://www.linkedin.com/in/sankalp-jumde/)("C:\Users\shruj\Downloads\linkedin.png")] • [[Email](sankalpkrishna1103@gmail.com)]
+🔗 • [[GitHub](https://github.com/SankalpJumde)] • [[LinkedIn](https://www.linkedin.com/in/sankalp-jumde/)] • [[Email](sankalpkrishna1103@gmail.com)]
 
 ---
 
