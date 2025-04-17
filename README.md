@@ -1,123 +1,136 @@
 
-# DeepFake Voice Detection 🔊🔎
+# 🧠 Deepfake Voice Detection 🎙️  
+**"Unmasking the Fake, One Voice at a Time."**
 
-Welcome to the Deepfake Voice Detection project! This repository contains the implementation of a system designed to detect deepfake audio, ensuring the authenticity of voice recordings. Leveraging state-of-the-art machine learning techniques, this project aims to provide a robust solution for identifying synthetic voices.
+---
 
+## 🔍 Overview
 
-## Table of Contents
+With the rapid growth of generative AI, **synthetic voices (deepfakes)** are now harder to distinguish from real human speech. This project offers a practical, ML-based solution to **detect deepfake voices**, aiming to strengthen trust in digital audio content.
 
-- **Introduction**
+> 🧠 *Built using CNNs and MFCCs, and extensible with GANs and Transformers.*
 
-- **Data Set**
+---
 
-- **Features**
+## 🌐 Real-World Applications
 
-- **Code**
+- 🔐 Voice-based Authentication Systems  
+- 📱 Social Media Content Moderation  
+- 📰 Fake News Prevention  
+- 🎙️ Podcast & Media Authenticity Checks  
+- 🚨 Forensics & Law Enforcement
 
-- **Installation**
+---
 
-- **Usage**
+## 🗂️ Dataset
 
-    - **Training a Model**
+Used from Kaggle:  
+📦 [Deep Voice - Deepfake Voice Recognition](https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition)  
+Contains two classes:
+- `real/`: Authentic human voices  
+- `fake/`: AI-generated deepfakes
 
-    - **Evaluating Model**
+---
 
-    - **Detecting Deepfakes in Audio**
+## 🧠 Key Features
 
-- **Test Results**
-  
-- **Reference**
+- 🎧 **Audio Preprocessing**  
+- 🗂️ **Feature Extraction (MFCC, Spectrograms)**  
+- 🤖 **ML Models**: CNN, RNN, Transformer (optional)  
+- 📈 **Training & Evaluation Metrics**  
+- 📊 **Visualization Dashboards**  
+- 🕵️ **Real-time Prediction Support**
 
-- **Contributing**
+---
 
-- **License**
-## Introduction
-Deepfakes are artificially generated media that can convincingly mimic real voices, posing significant threats to security, privacy, and trust in digital communications. This project addresses the growing need for reliable methods to detect such deepfake audio, providing tools and models to help mitigate these risks.
+## 🖥️ Architecture Overview
 
-### Data Set
-Link of Dataset: https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition
+### 🔁 Process Flow 
+![Pipeline](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/2b0aea00-0f42-451f-a56b-5ce598418e33)
 
-### Process Overview 🔁
-![Screenshot 2024-06-26 140557](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/2b0aea00-0f42-451f-a56b-5ce598418e33)
+### 🧠 GAN Model  
+![GAN](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/b27ac571-a358-4e22-b9d8-d3a154da4b58)
 
-Deepfake voice detection leverages Generative Adversarial Networks (GANs) to identify and differentiate between authentic and synthesized voices. GANs consist of two neural networks: a generator and a discriminator. The generator creates synthetic audio samples that mimic real human voices, while the discriminator evaluates these samples to determine their authenticity. During training, the generator continuously improves its ability to produce convincing fake voices, while the discriminator becomes more adept at identifying subtle differences between real and fake audio. This adversarial process enhances the overall detection capability, enabling the system to recognize even sophisticated deepfake voices by analyzing patterns, inconsistencies, and anomalies in the audio signals that are often imperceptible to human ears. As a result, GAN-based deepfake voice detection systems can effectively safeguard against the misuse of synthetic audio in various applications, from security to media integrity.
+🎭 How GANs Help Detect Deepfakes
+Deepfake voice detection uses Generative Adversarial Networks (GANs)—a battle between two neural networks:
 
-### GAN MODEL: 🖥️
+- 🛠️ Generator: Creates ultra-realistic fake voices
 
-![gan](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/b27ac571-a358-4e22-b9d8-d3a154da4b58)
+- 🕵️ Discriminator: Tries to catch the fakes
 
+Through this tug-of-war, the system learns to detect even subtle, imperceptible audio patterns.
+💡 This makes GANs powerful for spotting synthetic voices in security, media, and digital forensics!
 
-## Features
+---
 
-- **Audio Preprocessing**: 🎧
-- Tools for cleaning and preparing audio data for analysis.
+## 🚀 Installation & Usage
 
-- **Feature Extraction**: 🗂️
-- Techniques to extract relevant features from audio clips, such as MFCCs (Mel-Frequency Cepstral Coefficients), spectrograms, and more.
-- ![Screenshot 2024-06-26 140747](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/5394498e-eaab-4452-9327-638b11df355c)
-![Screenshot 2024-06-26 140821](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/b87e4696-beed-4556-9124-59ad2ef687b9)
-
-
-- **Machine Learning Models**: 🤖
-- Implementation of various machine learning models, including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Transformers, tailored for audio deepfake detection.
-
-- **Training and Evaluation**: 🧪
-- Scripts and configurations for training models on datasets, along with evaluation metrics to assess performance.
-
-- **Dataset Support**: 🔬
-- Compatibility with multiple audio datasets, both synthetic and real, for comprehensive training and testing.
-
-- **Visualization Tools**: 📊
-- Utilities to visualize audio features, model performance, and detection results.
-
-## Code: 👨‍💻
-To view the code of this project, [Source Code](https://colab.research.google.com/drive/17z4BnxHi_PYOBmB4ezop4obrE4t1nHUL?usp=drive_link).
-
-## Installation
-
-To get started with the deepfake detection project, follow these steps:
-
-    1. Clone the Repository: 
+### 1. Clone the Repository  
 ```bash
-    git clone https://github.com/SankalpJumde/deepfake-voice-detection.git 
-    cd deepfake-voice-detection
+git clone https://github.com/SankalpJumde/deepfake-voice-detection.git
+cd deepfake-voice-detection
 ```
 
-    2. Install Dependencies:
-
+### 2. Install Dependencies  
 ```bash
 pip install -r requirements.txt
 ```
-Download and Prepare Datasets:
 
-• Instructions for downloading supported datasets will be provided in the datasets directory.
+--- 
 
-• Ensure datasets are placed in the correct directories as specified.    
-## Usage
+## 🧪 Run the Project
 
-### Training a Model 🥷
-To train a deepfake detection model, use the following command:
+### Run the Notebook
+> Open the Jupyter notebook and execute the cells step-by-step.
+
+### OR Train via Script
 ```bash
 python train.py --config configs/training_config.yaml
 ```
-Modify the configuration file to adjust parameters like dataset paths, model architecture, training epochs, etc.
-![Screenshot 2024-06-26 140838](https://github.com/SankalpJumde/Deep-Fake-Voice-Detection/assets/135730661/d73077eb-7ff0-4e38-875f-311bc5ba6d85)
 
-
-### Evaluating a Model 🔬
-To evaluate a trained model, use:
+### Evaluate Model
 ```bash
-python evaluate.py --model_path models/deep-fake-voice-detection.pth --data_path datasets/test_data
+python evaluate.py --model_path models/model.pth --data_path datasets/test
 ```
-### Detecting Deepfakes in Audio 🕵️‍♂️✔️
-For real-time detection on audio files:
+### Predict Deepfake Audio
 ```bash
-python detect.py --audio_file path/to/audio.wav --model_path models/deep-fake-voice-detection.pth
+python detect.py --audio_file path/to/audio.wav --model_path models/model.pth
 ```
 
-## Test Reults 📋📌
-![image](https://github.com/user-attachments/assets/35c765ce-5c80-4f32-b85b-01326ffab338)
+---
+
+## 📊 Sample Output 📌
+
+```
+Model Accuracy: 92.4%
+Test Prediction: FAKE
+Confidence: 0.94
+```
+
+![Results](https://github.com/user-attachments/assets/35c765ce-5c80-4f32-b85b-01326ffab338)
+
 - Successfully Tests both Real Voices as well as Deepfake Generated Voices! 🎯
+---
+
+## 🔮 Future Scope
+
+- 🌐 **Web Interface** (Streamlit/Flask)  
+- 📱 **Mobile App Integration**  
+- 🔁 **Advanced Models (LSTM/Transformer)**  
+- 📊 **Voice Signature Dashboards**  
+- 🌐 **Public REST API for Businesses**
+
+---
+
+## 💻 Tech Stack
+
+- Python  
+- TensorFlow / Keras  
+- Librosa  
+- NumPy, Matplotlib  
+- (Optional) PyTorch, Streamlit
+
+---
 
 ## Reference 📚
 1. [Generative Adversarial Network (GAN): a general review on different variants of GAN and applications](https://ieeexplore.ieee.org/abstract/document/9489160/)
