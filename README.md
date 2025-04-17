@@ -109,7 +109,7 @@ Confidence: 0.94
 
 ![Results](https://github.com/user-attachments/assets/35c765ce-5c80-4f32-b85b-01326ffab338)
 
-- Successfully Tests both Real Voices as well as Deepfake Generated Voices! 🎯
+- Successfully Tests both Real voice as well as Deepfake Generated voice! 🎯
 ---
 
 ## 🔮 Future Scope
