@@ -102,9 +102,7 @@ python detect.py --audio_file path/to/audio.wav --model_path models/model.pth
 ## 📊 Sample Output 📌
 
 ```
-Model Accuracy: 92.4%
-Test Prediction: FAKE
-Confidence: 0.94
+![Screenshot 2025-04-17 131835](https://github.com/user-attachments/assets/4a0b4b50-75d1-451c-a9a6-10e397d31b05)
 ```
 
 ![Results](https://github.com/user-attachments/assets/35c765ce-5c80-4f32-b85b-01326ffab338)
