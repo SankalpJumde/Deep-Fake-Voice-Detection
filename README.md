@@ -8,6 +8,8 @@ Welcome to the Deepfake Voice Detection project! This repository contains the im
 
 - **Introduction**
 
+- **Data Set**
+
 - **Features**
 
 - **Code**
