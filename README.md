@@ -102,7 +102,7 @@ python detect.py --audio_file path/to/audio.wav --model_path models/model.pth
 ## 📊 Sample Output 📌
 
 ```
-![Results](https://github.com/user-attachments/assets/35c765ce-5c80-4f32-b85b-01326ffab338)
+![Screenshot 2025-04-17 131835](https://github.com/user-attachments/assets/12bb71a0-de46-4d49-b05f-d0fc8bb1839b)
 
 Successfully Tests both Real voice as well as Deepfake Generated voice! 🎯
 ---
