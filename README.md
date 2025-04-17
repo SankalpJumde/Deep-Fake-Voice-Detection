@@ -117,7 +117,7 @@ python detect.py --audio_file path/to/audio.wav --model_path models/deep-fake-vo
 
 ## Test Reults 📋📌
 ![image](https://github.com/user-attachments/assets/35c765ce-5c80-4f32-b85b-01326ffab338)
-- Successfully Testes both Real voice as well as Deepfake generated voice! 🎯
+- Successfully Tests both Real Voices as well as Deepfake Generated Voices! 🎯
 
 ## Reference 📚
 1. [Generative Adversarial Network (GAN): a general review on different variants of GAN and applications](https://ieeexplore.ieee.org/abstract/document/9489160/)
