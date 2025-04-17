@@ -139,18 +139,22 @@ Confidence: 0.94
 4. [The Effect of Deep Learning Methods on Deepfake Audio Detection for Digital Investigation](https://www.sciencedirect.com/science/article/pii/S1877050923002910/)
 5. [Audio deepfakes: A survey](https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2022.1001063/full/)
 
-## Contributing 
+---
 
-We welcome contributions from the community! If you have ideas, bug fixes, or improvements, please open an issue or submit a pull request. Make sure to follow our contribution guidelines.
+## 🙌 Acknowledgements
+
+Thanks to the open-source community, Kaggle, and ML researchers who continue to innovate in the field of deepfake detection and synthetic media analysis.
+
+---
+
+## 📬 Contact
+
+Made with ❤️ by **Sankalp**  
+🔗 ![[GitHub](https://github.com/SankalpJumde)] • [[LinkedIn](https://www.linkedin.com/in/sankalp-jumde/)("C:\Users\shruj\Downloads\linkedin.png")] • [[Email](sankalpkrishna1103@gmail.com)]
+
+---
+
 ## License 📌
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. See the LICENSE file for more details.
 
-
-
-## Acknowledgements
-
-We would like to thank the developers of the libraries and datasets used in this project. Special thanks to the open-source community for their invaluable resources and support.
-
-Feel free to reach out with any questions or feedback. Together, we can make digital communications safer and more secure!
-
-
+--- 
